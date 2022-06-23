@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/ico">
+    <script type="text/javascript" src="script.js"></script> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me:</title>
+</head>
+<body>
+    <div class="navbar">
+
+        <ul>
+            <li><button class="openbtn" onclick="openNav()">&#9776;</button></li>
+            <li><a href="home.html"><img id='logonav' src="logo/logo_white.png" alt="Best Products"></a></li>
+            <li><a href="">TECH</a></li>
+            <li><a href="">BEAUTY</a></li>
+            <li><a href="">HOME</a></li>
+            <li><a href="">PARENTING</a></li>
+            <li><a href="">GIFTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+    </div>
+
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Sales & Deals</a>
+        <a href="#">Product News</a>
+        <a href="#">Gift Ideas</a>
+        <a href="#">Tech</a>
+        <a href="#">Home</a>
+        <a href="#">Fitness</a>
+        <a href="#">Beauty</a>
+        <a href="#">Applications</a>
+        <a href="#">Parenting</a>
+        <a href="#">Eats</a>
+        <a href="#">Lifestyle</a>
+        <a href="#">Fashion</a>
+        <a href="#">Hype Meter</a>
+        <a href="#">Little Lifesavers</a>
+        <a href="#">I Tried It</a>
+        <a href="#">10/10 Would Recommend</a>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'address') ">Address</button>
+        <button class="tablinks" onclick="openCity(event, 'call') ">Call</button>
+        <button class="tablinks" onclick="openCity(event, 'email') ">E-Mail</button>
+        <button class="tablinks" onclick="openCity(event, 'chat') ">Chat</button>
+    </div>
+
+    <div id="address" class="tabcontent">
+        <h3>Address</h3>
+        <p>1234 Main Street</p>
+        <p>Montreal, QC</p>
+    </div>
+
+    <div id="call" class="tabcontent">
+        <h3>Call Me</h3>
+        <p>+1 (514) 555-5555</p>
+    </div>
+
+    <div id="email" class="tabcontent">
+        <section>
+        <h4>Email: </h4>
+        <input id="input-email" type="text" placeholder="id@edu.vaniercollege.qc.ca">
+        </section>
+        <section>
+        <h4>Heading: </h4>
+        <input type="text">
+        </section>
+        <h4>Message: </h4>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button onclick="validateEmail()">Submit</button>
+    </div>
+
+    <div id="chat" class="tabcontent">
+        <h4>Chat with us</h4>
+        <textarea name="" id="chatarea" cols="30" rows="10"></textarea>
+        <br>
+        <button onclick="validateChat()">Send</button>
+    </div>
+
+
+
+    <div class="footer">
+        Created by Deepesh Tickoo(2093372) Navdeep(2024569) Keesara(2001192) &copy; 2022
+    </div>
+    
+    
+</body>
+</html>
